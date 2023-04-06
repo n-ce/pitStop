@@ -1,4 +1,4 @@
-# PITSTOP
+# 🏎️ 💨 PITSTOP (<0.4KB)
 ### Basic performance testing, comparison and analysis suite for JavaScript functions
 
 ### Suite
@@ -7,6 +7,9 @@
   - **RandomNumber()** : generates random number for inputs.
 
 ### Usage
+ ```
+ import {pitStop} from 'https://n-ce.github.io/pitStop/dist/pitStop.min.js'
+ ```
  - The pitStop function takes three parameters mainly
  - The First parameter is the number of times you want to run functions
  - The Second parameter is an array which takes your function arguments if required otherwise leave it null
