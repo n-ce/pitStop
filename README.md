@@ -1,4 +1,4 @@
-# 🏎️ 💨 PITSTOP (<0.4KB)
+# 🏎️ 💨 PITSTOP
 ### Console based Basic performance testing, comparison and analysis suite for JavaScript functions
 ```
 pitStop(
@@ -22,7 +22,7 @@ pitStop(
 
 ### Usage
  ```
- import { pitStop } from 'https://cdn.jsdelivr.net/gh/n-ce/pitStop/pitStop.min.js';
+ import { pitStop } from 'https://cdn.jsdelivr.net/gh/n-ce/pitStop/pitStop.js';
  ```
  - The pitStop function takes three parameters mainly
  - The First parameter is the number of times you want to run functions
