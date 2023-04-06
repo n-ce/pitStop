@@ -16,9 +16,9 @@ pitStop(
 
 
 ### Suite
-  - **PitStop()** : provides a console table with relevant comparison analysis.
-  - **SpeedTest()** : provides time taken for a function to compute.
-  - **RandomNumber()** : generates random number for inputs.
+  - **pitStop()** : provides a console table with relevant comparison analysis.
+  - **timeTaken()** : provides time taken for a function to compute.
+  - **randomNum()** : generates random number for inputs.
 
 ### Usage
  ```
