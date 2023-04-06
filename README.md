@@ -22,7 +22,7 @@ pitStop(
 
 ### Usage
  ```
- import {pitStop} from 'https://n-ce.github.io/pitStop/dist/pitStop.min.js';
+ import { pitStop } from 'https://cdn.jsdelivr.net/gh/n-ce/pitStop/pitStop.min.js';
  ```
  - The pitStop function takes three parameters mainly
  - The First parameter is the number of times you want to run functions
