@@ -1,0 +1,29 @@
+<script type="module">
+	import { pitStop, randomNum } from './pitStop.js';
+	import { lcmLow,lcmHigh, lcmgcd, lcmgcddr } from './LCM.js';
+
+	function forLoop() {
+		let x = 10000;
+		for (let i = 0; i <= x; i++)
+			if (i === x)
+				return i;
+	}
+
+	function whileLoop() {
+	let x = 10000;
+		let i = 0;
+		while (i < x) i++;
+		return i;
+	}
+
+	pitStop(
+		1000, // iterations
+		[], // put function args inside the array if required
+		forLoop, whileLoop // functions to compare
+	);
+	pitStop(
+		100000,
+		[12,5],
+		lcmLow,lcmHigh,lcmgcd,lcmgcddr
+		)
+</script>
