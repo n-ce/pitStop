@@ -18,13 +18,12 @@ export function timeTaken(fx, iterations, ...args) {
 // main function for testing,analysis and comparison
 
 export function pitStop(iterations, args, ...functions) {
-	const results = [];
-	for (const fx of functions) {
-		results.push({
+	return console.table(
+	functions.map(fx => {
+		return {
 			name: fx.name,
 			time: timeTaken(fx, iterations, ...args),
 			output: fx(...args)
-		});
+		}
 	}
-	return console.table(results);
 }
