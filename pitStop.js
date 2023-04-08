@@ -25,5 +25,5 @@ export function pitStop(iterations, args, ...functions) {
 			time: timeTaken(fx, iterations, ...args),
 			output: fx(...args)
 		}
-	}
+	});
 }
