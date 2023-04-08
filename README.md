@@ -1,4 +1,5 @@
 # 🏎️ 💨 PITSTOP
+![](https://data.jsdelivr.com/v1/package/gh/n-ce/pitStop/badge)
 ### Console based Basic performance testing, comparison and analysis suite for JavaScript functions
 ```
 pitStop(
